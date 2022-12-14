@@ -10,14 +10,14 @@ public class Main {
         System.out.println("Last digit of the number is " + lastdigit);
 
         int Joe = 30;
-        if (Joe >= 18 && Joe <= 30) {System.out.println("Congratulations! You figured out how IF works!");}
+        if (Joe >= 18 & Joe <= 30) {System.out.println("Congratulations! You figured out how IF works!");}
 
         int x = -1;
         int y = 5;
-        if(y>0 && x<0) {System.out.println("The target is in the 1th quarter");}
-        else if(y>0 && x>0) {System.out.println("The target is in the 2nd quarter");}
-        else if(y<0 && x<0){System.out.println("The target is in the 3rd quarter");}
-        else if(y<0 && x>0){System.out.println("The target is in the 4th quarter");}
+        if(y>0 & x<0) {System.out.println("The target is in the 1th quarter");}
+        else if(y>0 & x>0) {System.out.println("The target is in the 2nd quarter");}
+        else if(y<0 & x<0){System.out.println("The target is in the 3rd quarter");}
+        else if(y<0 & x>0){System.out.println("The target is in the 4th quarter");}
         else {System.out.println("x or y = 0");}
 
         int a = 10;
